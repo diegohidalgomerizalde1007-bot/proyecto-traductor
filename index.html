@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="layout">
+
+        <header class="layout__header">
+            <i class="fa-solid fa-language header__icono"></i>
+            <h2 class="header__titulo">Traductor</h2>
+        </header>
+
+        <div class="layout__busqueda">
+            <div class="busqueda__campo">
+                <input
+                    class="busqueda__input"
+                    type="text"
+                    placeholder="Introduce una palabra"
+                >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <select class="busqueda__idioma">
+                <option>Español</option>
+            </select>
+        </div>
+
+        <div class="layout__palabra">
+            <h1 class="palabra__titulo">Ordenador</h1>
+
+            <button class="palabra__boton" type="button" aria-label="Reproducir pronunciación">
+                <i class="fa-solid fa-play"></i>
+            </button>
+        </div>
+
+    </main>
 </body>
 </html>

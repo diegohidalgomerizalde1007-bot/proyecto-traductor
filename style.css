@@ -1,4 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.layout {
+    width: 40rem;
+    margin: 1rem auto;
+}
+
+
+.layout__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.header__icono {
+    color: #3769dc;
+    font-size: 2rem;
+}
+
+.header__titulo {
+    color: #1646e8;
+    font-size: 1.4rem;
+}
+
+.layout__busqueda {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.busqueda__campo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.busqueda__input {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.busqueda__idioma {
+    width: 10rem;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+}
+
+.layout__palabra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.palabra__titulo {
+    font-size: 3rem;
+    color: #222;
+}
+
+.palabra__boton {
+    width: 4.5rem;
+    height: 4.5rem;
+    color: white;
+    background-color: #45a7eb;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.3rem;
 }
