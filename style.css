@@ -47,7 +47,7 @@ body {
     align-items: center;
     flex-grow: 1;
     padding: 1rem;
-    background-color: #f3f3f3;
+    background-color: #f0ecec;
     border-radius: 10px;
 }
 
@@ -63,7 +63,7 @@ body {
     width: 10rem;
     padding: 1rem;
     font-weight: bold;
-    background-color: #f3f3f3;
+    background-color: #f3eeee;
     border: none;
     border-radius: 10px;
 }
@@ -77,15 +77,43 @@ body {
 
 .palabra__titulo {
     font-size: 3rem;
-    color: #222;
+    color: #222121;
 }
 
 .palabra__boton {
     width: 4.5rem;
     height: 4.5rem;
     color: white;
-    background-color: #45a7eb;
+    background-color: #46a3e6;
     border: none;
     border-radius: 50%;
     font-size: 1.3rem;
+}
+
+.traduccion__titulo {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #161616;
+    margin-bottom: 3rem;
+}
+
+.traduccion__lista {
+    padding-left: 2rem;
+    line-height: 1.5;
+}
+
+.traduccion__lista li {
+    margin-bottom: 3rem;
+}
+
+.traduccion__lista strong {
+    color: #3769dc;
+}
+
+.layout__footer {
+    border-top: 1px solid #ebe6e6;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    color: #979595;
+    font-size: 0.9rem;
 }
