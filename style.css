@@ -47,7 +47,7 @@ body {
     align-items: center;
     flex-grow: 1;
     padding: 1rem;
-    background-color: #f0ecec;
+    background-color: #ebe4e4;
     border-radius: 10px;
 }
 
@@ -63,7 +63,7 @@ body {
     width: 10rem;
     padding: 1rem;
     font-weight: bold;
-    background-color: #f3eeee;
+    background-color: #eee5e5;
     border: none;
     border-radius: 10px;
 }
@@ -90,11 +90,23 @@ body {
     font-size: 1.3rem;
 }
 
+.traduccion__encabezado {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.traduccion__encabezado hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #e6e2e2;
+}
+
 .traduccion__titulo {
     text-align: center;
     font-size: 1.4rem;
-    color: #161616;
-    margin-bottom: 3rem;
+    color: #242323;
 }
 
 .traduccion__lista {
@@ -111,9 +123,25 @@ body {
 }
 
 .layout__footer {
-    border-top: 1px solid #ebe6e6;
+    border-top: 1px solid #e4e1e1;
     margin-top: 3rem;
     padding-top: 1rem;
     color: #979595;
     font-size: 0.9rem;
+}
+
+
+.layout__sinonimos {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.sinonimos__titulo {
+    color: #8a8a8a;
+}
+
+.sinonimos__palabras {
+    color: #3769dc;
 }

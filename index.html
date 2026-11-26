@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main class="layout">
 
@@ -17,11 +19,7 @@
 
         <div class="layout__busqueda">
             <div class="busqueda__campo">
-                <input
-                    class="busqueda__input"
-                    type="text"
-                    placeholder="Introduce una palabra"
-                >
+                <input class="busqueda__input" type="text" placeholder="Introduce una palabra">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
 
@@ -39,7 +37,11 @@
         </div>
         <section class="layout__traduccion">
 
-            <h2 class="traduccion__titulo">Traduccion</h2>
+            <div class="traduccion__encabezado">
+                <hr>
+                <h2 class="traduccion__titulo">Traducción</h2>
+                <hr>
+            </div>
 
             <ul class="traduccion__lista">
                 <li>
@@ -48,13 +50,37 @@
                     automáticamente mediante operaciones matemáticas y lógicas
                     controladas por programas informáticos.
                 </li>
+                <li>
+                    <strong>Ordenador compatible:</strong>
+                    Ordenador capaz de ejecutar los mismos programas que otros
+                    ordenadores del mismo tipo.
+                </li>
+
+                <li>
+                    <strong>Ordenador personal:</strong>
+                    Ordenador de sobremesa que incluye unidad central, teclado,
+                    pantalla y una o más unidades de disco y que puede funcionar
+                    sin estar conectado a una red informática.
+                </li>
+
+                <li>
+                    <strong>Ordenador portátil:</strong>
+                    Ordenador personal de peso y tamaño tan reducidos que se puede
+                    llevar cómodamente de un lado a otro, como si fuera un maletín;
+                    una batería incorporada le permite cierta autonomía de funcionamiento.
+                </li>
             </ul>
-
         </section>
-
+        <div class="layout__sinonimos">
+            <span class="sinonimos__titulo">Sinónimos:</span>
+            <span class="sinonimos__palabras">
+                Computador Procesadora Computadora
+            </span>
+        </div>
         <footer class="layout__footer">
             <p>Todos los derechos reservados a Victor Robles ©</p>
         </footer>
     </main>
 </body>
+
 </html>
